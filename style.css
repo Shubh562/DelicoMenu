@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffe0f0;
+    color: #333;
+    background-image: url('image.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h1 {
+    color: #000; /* Sets the color to black */
+    font-weight: bold; /* Makes the font bold */
+}
+header, footer {
+    background-color: #ffccdd;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #d6336c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu Items */
+#menu-items h2 {
+    color: #d6336c;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    color: #b30059;
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
