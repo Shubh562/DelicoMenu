@@ -65,3 +65,16 @@ footer {
     margin-top: 20px;
     font-weight: bold;
 }
+
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the image takes up the full width of the header and does not have any space around it */
+.full-width-image {
+    display: block; /* This removes any default space below the image */
+    width: 100%;
+    height: auto;
+}
+
